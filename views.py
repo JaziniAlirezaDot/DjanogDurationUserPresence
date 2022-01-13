@@ -1,5 +1,4 @@
 def manager_duration_presence_user(request):
-    # duration_presence_session = request.session.get('duration_presence')
     second, mint, hour = int(request.GET.get('second')), int(request.GET.get('mint')), int(request.GET.get('hour'))
     print(second, mint, hour)
     if any([second, mint, hour]):
