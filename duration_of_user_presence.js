@@ -1,3 +1,5 @@
+// add jquery refrence
+
 let secon, mint, hour;
 
 function get_last_page_duration() {
